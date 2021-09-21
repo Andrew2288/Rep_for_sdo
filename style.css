@@ -1,0 +1,19 @@
+body {
+    background-color:rgb(127, 224, 159)
+}
+
+ul {
+    background-color:rgb(239, 243, 235);
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+    color: black
+}
+
+.product_img {
+    outline-width: 15;
+    outline-color: rgb(207, 51, 212);
+    outline-style: groove;
+}
