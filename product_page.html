@@ -6,22 +6,31 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <ul>
-        <li><a href="main.html">this link to the main page</a></li>
-        <li><a href="directory.html">this link to the directory page</a></li>
-        <li><a href="product_page.html">this link to the product page</a></li>
-        <li><a href="about_Us.html">this link to the about Us page</a></li>
-    </ul>
-    <h1>There should be information about this vegetable, but it is not, since its appearance speaks for itself</h1>
-    <li>Eggplant</li>  
-    <br>
-    <img src="Images/01030novyj-razmer-46892.jpg" class="product_img" alt="">
-    <p></p>
-    <h2>price: $ 5 per kilogram</h2>
-    <ul>
-        With all questions, please email: bog_znaet_chto@mail.ru
+    <div class=container>
+        <ul class=header>
+            <img class=logo src="Images/menu.png" alt="">
+            <div class=menu>
+                <li class=line><a class=link href="main.html">this link to the main page</a></li>
+                <li class=line><a class=link href="directory.html">this link to the directory page</a></li>
+                <li class=line><a class=link href="product_page.html">this link to the product page</a></li>
+                <li class=line><a class=link href="about_Us.html">this link to the about Us page</a></li>
+            </div>
+        </ul>
+        <h1>There should be information about this vegetable, but it is not, since its appearance speaks for itself</h1>
+        <li>Eggplant</li>  
         <br>
-        Or call: 6477389393
-    </ul>
+        <div class=product_div><ul class=><img src="Images/01030novyj-razmer-46892.jpg" class="product_img" alt="" align="left" vspace="5" hspace="5" >Most commonly purple, the spongy, absorbent fruit is used in several cuisines. Typically used as a vegetable in cooking, it is a berry by botanical definition. As a member of the genus Solanum, it is related to the tomato, chili pepper, and potato, although those are of the New World while the eggplant is of the Old World.</ul>
+            <br>
+        </div>
+        <h2>price: $ 5 per kilogram</h2>
+        <form action="#">
+            <input type="button" value="купить">
+        </form>
+        <ul class=footer>
+            With all questions, please email: bog_znaet_chto@mail.ru
+            <br>
+            Or call: 6477389393
+        </ul>
+    </div>
 </body>
 </html>
