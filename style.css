@@ -1,0 +1,73 @@
+body{
+    background-color:rgb(127, 224, 159)
+}
+
+.container {
+    width: 80%; 
+    margin: auto; 
+}
+
+.logo{
+    display: inline;
+    margin-top: 5px;
+}
+
+.header {
+    background-color:rgb(239, 243, 235);
+    height: 50px;
+    padding-bottom: 2%;
+}
+
+.menu{
+    display: inline;
+    position: relative;
+    left: 250px;
+}
+
+.line {
+    display: inline;
+    padding-left: 3%;
+}
+
+.footer {
+    background-color:rgb(24, 210, 243);
+    height: 50px;
+}
+
+.link{
+    text-decoration: none;
+    color: black;
+}
+
+.product_discription{
+    display: inline;
+    width: 100px;
+    background-color:rgb(24, 210, 243);
+    padding-left: 10;
+}
+
+.product_div{
+    margin-bottom: 30%;
+}
+
+.directory_page_1{
+    display: table-cell;
+    padding-right: 150px;
+}
+
+.directory_page_2{
+    display: table-cell;
+    padding-right: 150px;
+}
+
+.directory_page_3{
+    display: table-cell;
+    padding-right: 150px;
+}
+
+.product_img {
+    margin-right: 10px;
+    outline-width: 15;
+    outline-color: rgb(207, 51, 212);
+    outline-style: groove;
+}
