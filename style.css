@@ -20,8 +20,10 @@ body{
 
 .menu{
     display: inline;
-    position: relative;
-    left: 20%;
+    position: static;
+    width: 100%;
+    margin-top: 2%;
+    margin-left: 20%;
 }
 
 .line {
