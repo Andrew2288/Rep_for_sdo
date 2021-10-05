@@ -21,7 +21,7 @@ body{
 .menu{
     display: inline;
     position: relative;
-    left: 250px;
+    left: 20%;
 }
 
 .line {
