@@ -71,3 +71,7 @@ body{
     outline-color: rgb(207, 51, 212);
     outline-style: groove;
 }
+
+.map{
+    padding: auto;
+}
